@@ -57,7 +57,7 @@ public:
 // Определение статической переменной
 int SmartRectangle::total_created = 0;
 
-// Дружественная функция для вывода
+
 ostream& operator<<(ostream& os, const SmartRectangle& r) {
     os << "SmartRectangle[" << r.width << " x " << r.height << "]";
     return os;
