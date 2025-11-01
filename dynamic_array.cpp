@@ -161,10 +161,8 @@ void demonstrateShallowCopy() {
 }
 
 void demonstrateDeepCopy() {
-    cout << "\n========================================" << endl;
     cout << "ДЕМОНСТРАЦИЯ DEEP COPY (ПРАВИЛЬНО!)" << endl;
-    cout << "========================================\n" << endl;
-
+  
     DynamicArrayDeep arr1(5);
     arr1.display();
 
